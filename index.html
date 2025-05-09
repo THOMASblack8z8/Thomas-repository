@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Call of Duty: Black Ops 6</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">BLACK OPS 6</div>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+    <nav>
+      <ul id="menu">
+        <li><a href="#">Início</a></li>
+        <li><a href="#video">Trailer</a></li>
+        <li><a href="#comparison">Planos</a></li>
+        <li><a href="#contact">Contato</a></li>
+        <li><a href="#armas">Armas Meta</a></li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="product-img">
+      <img src="responsive cod.jpg"BO6 Logo">
+    </div>
+
+    <section class="description">
+      <h2>Sobre o Jogo</h2>
+      <p>Call of Duty: Black Ops 6 traz uma narrativa intensa ambientada na Guerra Fria com jogabilidade refinada, gráficos de última geração e modo multijogador tático e visceral.</p>
+    </section>
+
+    <section class="video" id="video">
+        <iframe width="700" height="500" src="https://www.youtube.com/embed/GYG_h-L-K2E?si=iJDtK5QpjJdiORbq&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <section id="armas" class="armas-meta">
+        <h2>Armas Meta</h2>
+
+        <div class="armas-lista">
+          <div class="arma">
+            <h3 class="texto">cr-56 Amax</h3>
+            <img src="cr max.jpg" alt="">
+            <p class="texto"><strong>Categoria:</strong> Rifle de Assalto</p>
+            <p class="texto">Alta precisão e dano alto, ideal para combates de médio alcance.</p>
+          </div>
+          <div class="arma">
+            <h3 class="texto">ksv</h3>
+            <img src="ksv.jpg" alt="">
+            <p class="texto"><strong>Categoria:</strong> SMG</p>
+            <p class="texto">Velocidade de disparo elevada e mobilidade excelente para combates próximos.</p>
+          </div>
+          <div class="arma">
+            <h3 class="texto"> hdr </h3>
+            <img src="hdr.jpg" alt="">
+            <p class="texto"><strong>Categoria:</strong> Sniper</p>
+            <p class="texto">Alcance extremo com dano letal em tiros na cabeça.</p>
+          </div>
+          <div class="arma">
+            <h3 class="texto"> kilo 141 </h3>
+            <img src="kilo 141.jpg" alt="">
+            <p class="texto"><strong>Categoria:</strong> Rifle de Assalto</p>
+            <p class="texto"> Boa cadência de tiro e controle, ótimo para suporte tático em equipe.</p>
+          </div>
+        </div>
+      </section>
+      
+    </section>
+
+    <section class="comparison" id="comparison">
+      <h2>Comparação de Planos</h2>
+      <table>
+        <tr>
+          <th>Plano</th>
+          <th>Preço</th>
+          <th>Benefícios</th>
+        </tr>
+        <tr>
+          <td>Básico</td>
+          <td>R$0</td>
+          <td>Multiplayer limitado</td>
+        </tr>
+        <tr>
+          <td>Veterano</td>
+          <td>R$59,90</td>
+          <td>Modos completos + skins</td>
+        </tr>
+        <tr>
+          <td>Elite</td>
+          <td>R$109,90</td>
+          <td>Conteúdo completo + passe de batalha</td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Contato</h2>
+      <form>
+        <input type="text" placeholder="Nome" required>
+        <input type="email" placeholder="Email" required>
+        <textarea rows="4" placeholder="Mensagem"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Siga-nos:</p>
+    <a href="#">Facebook</a> |
+    <a href="#">Twitter</a> |
+    <a href="#">Instagram</a>
+    <p>&copy; 2025 Black Ops 6 Fan Page</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('menu').classList.toggle('show');
+    }
+  </script>
+</body>
+</html>
